@@ -122,3 +122,22 @@ main {
 .libro a:hover {
   color: rgb(21, 80, 219);
 }
+@media (max-width:880px){
+  .layout{
+    grid-template-columns: 1fr;
+    padding:24px;
+    gap:18px;
+  }
+  .cover{
+    height:40vh;
+    max-height:420px;
+  }
+  .synopsis{
+    padding:20px;
+  }
+}
+
+@media (max-width:420px){
+  .layout{ padding:16px; gap:12px; }
+  .cover{ height:34vh; }
+}
